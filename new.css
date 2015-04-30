@@ -1,0 +1,25 @@
+h1 {color: Black;
+	font-style: italic;
+	font-size: 200px;
+}
+
+a {
+	font-size: 25px;
+	text-decoration: none;
+
+}
+div img{
+	max-width: 1350px;
+	margin: 0px auto;
+}
+
+#menu ul li {
+	display: inline;
+	border-bottom: 1px solid #000000; 
+	margin:  0 auto;
+}
+
+#menu {
+	margin: 0; 
+
+}
