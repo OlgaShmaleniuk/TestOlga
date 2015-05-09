@@ -1,25 +1,69 @@
-h1 {color: Black;
+div h1 {
+
+    /* height: 800px;
+     width: 50px;*/
+     margin: 0px;
+     padding: 0px;
+
+	/*transform-origin: left;
+	transform: perspective(200px) rotateX(180);*/
+	/*position: absolute;*/
+	/*left: 150px;*/
+	color: white;
 	font-style: italic;
-	font-size: 200px;
+	font-size: 150px;
+	/*text-align: left;*/
 }
 
-a {
+div.hello {
+color: white;
+  font-size: 150px;
+  transform-origin: center center;
+  transform: rotate(-90deg);
+  width: 850px;
+  position: absolute;
+  left: -420px;
+	    padding-right: 140px;
+}
+
+a { 
 	font-size: 25px;
 	text-decoration: none;
+	color: white;
 
 }
-div img{
+
+div#mwnu {
+	position: relative;
+}
+
+/*div img{
 	max-width: 1350px;
 	margin: 0px auto;
-}
+}*/
 
+ul {
+	position: relative; 
+	left: 25%;
+}
 #menu ul li {
+
 	display: inline;
-	border-bottom: 1px solid #000000; 
 	margin:  0 auto;
 }
 
 #menu {
 	margin: 0; 
 
+}
+
+li {
+	text-align: right;
+	padding-left: 20px;
+}
+
+body {
+	background-image: url(img1.jpg);
+	background-repeat: no-repeat; /*отменяeм повторение фона*/
+	background-color: black;
 }
